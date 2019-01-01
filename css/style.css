@@ -1,0 +1,29 @@
+body{
+      background-image: url("../img/background.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+.container{
+    position: absolute;
+    left: 545px;
+    top: 140px;
+}
+.game button{
+    width: 85px;
+    height: 38px;
+    font-size: 15px;
+    border-radius: 10px;
+    position: relative;
+    left: 65px;
+    background-image: url('../img/Btn.png');
+    background-size: cover;
+}
+.game img{
+    width: 90px;
+    height: 90px;
+}
+.game input{
+    height: 30px;
+    border-radius: 5px;
+}

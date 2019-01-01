@@ -1,0 +1,45 @@
+body{
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container{
+    height: 600px;
+}
+
+div {
+    margin: auto;
+    padding: 3px;
+    height: 250px;
+    line-height: 250px;
+    text-align: center;
+    
+}
+
+.memory{
+    font-family: 'Spirax', cursive;
+    font-size: 100px;
+    color: rgb(165, 103, 114);
+    margin: auto;
+}
+
+.button{
+    margin: auto;
+}
+
+ .btn {
+    font-family: 'Spirax', cursive;
+    background-color:rgb(165, 103, 114);
+    background-repeat: no-repeat;
+    color: white;
+    border: none;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    border-radius: 8px;
+    
+}
