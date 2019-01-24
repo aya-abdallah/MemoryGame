@@ -27,3 +27,18 @@ body{
     height: 30px;
     border-radius: 5px;
 }
+/*Hide radio*/
+[type=radio]{
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+/*image style*/
+[type=radio] + img{
+    cursor: pointer;
+}
+/*checked styles*/
+[type=radio]:checked + img{
+    outline: 1px solid blue;
+}

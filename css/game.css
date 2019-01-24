@@ -1,12 +1,16 @@
-
-
+html{
+    overflow: hidden;
+}
+body{
+position: relative;    
+}
 #card{
     margin: 0 auto;
     margin-top: 130px;
-    width: 250px;
+    width: 300px;
     height: 300px;
     background-repeat: no-repeat;
-    background-color: aqua;
+ 
 }
 #map{
     width: 280px;
@@ -16,6 +20,7 @@
     border-color: slategrey;
     margin: 0 auto;
     border-radius: 20px;
+    top: 0;
 }
 .mapImage{
     padding-left: 4px;
@@ -28,4 +33,124 @@
     width: 80px;
     height: 40px;
     float: left;
+}
+
+#showCard{
+     height: 500px;
+    padding: 5px;
+    margin: 50px auto;
+    line-height: 500px;
+    vertical-align: middle;
+    text-align: center;
+    display: none;
+    z-index: 5;
+    position: absolute;
+}
+
+#pop
+{
+    display: none;
+    width: 450px;
+    height: 350px;
+    border: solid 2px gray;
+    border-radius: 15px;
+    background-image: url('bb.jpg');
+    margin: auto;
+    margin-top: 200px;
+    font-family: 'Spirax', cursive;
+    color: rgb(165, 103, 114);
+    z-index: 10;
+    position: absolute;
+}
+#score
+{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px; 
+    padding:20px;
+    width: 40%;
+    height: 50px;
+    margin:auto;
+    margin-top: -1%;
+    margin-bottom: -3%;    
+    font-size: 50px;
+}
+
+#fail
+{
+    width: 80px;
+
+    margin-top: 20px;
+    margin-left: 120px;
+    
+    
+}
+#chrac
+{
+    width: 80px;
+    
+    margin-top: 11px;
+    display: inline;
+    margin-left: 80px;
+   
+    
+}
+#again
+{
+    font-family: 'Spirax', cursive;
+    background-color:rgb(165, 103, 114);
+    background-repeat: no-repeat;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-left: 120px;
+    display: inline;
+    width: 80px;
+    height: 50px;
+   margin-top: 20px;
+
+}
+
+#exite
+{
+    font-family: 'Spirax', cursive;
+    background-color:rgb(165, 103, 114);
+    background-repeat: no-repeat;
+    color: white;
+    border: none;
+    border-radius: 8px; 
+    margin-left: 80px;
+    display:inline;
+    width: 80px;
+    height: 50px;
+    margin-top: 35px;
+   
+}
+#timer{
+    top:0;
+    right: 0;
+    position: absolute;
+    padding-right: 1px;
+    text-align:center;
+    font-size: 30px;
+    color: lightsteelblue;
+    width: 10%;
+    display: none;
+    font-weight: bold;
+}
+
+.class_t{
+    float: left;
+
+}
+.clear{
+    clear: both; 
+}
+
+#char_div{
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }

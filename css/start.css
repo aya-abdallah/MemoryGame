@@ -1,0 +1,68 @@
+body{
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Spirax', cursive;
+}
+html{
+    overflow-y: hidden;
+}
+.character :hover{
+    border: solid 1px red;
+}
+form #name{
+    width: 325px;
+    height: 30px;
+    border-radius: 5px;
+}
+form{
+    width: 750px;
+    left: 450px;
+    margin: auto;
+    margin-top: 45px;
+    position: relative;
+}
+form legend{
+    margin-left: 145px;
+    margin-bottom: 20px;
+    font-size: x-large;    
+}
+form label{
+    font-size: x-large;
+}
+form p{
+    margin-left: 135px;
+    font-size: 20px;
+}
+.container{
+    position: absolute;
+}
+.game button{
+    width: 135px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 10px;
+    position: relative;
+    left: 170px;
+    margin-top: 30px;
+    font-family: 'Spirax', cursive;
+    background-image: url('../images/Btn.png');
+    background-size: cover;
+}
+/* HIDE RADIO */
+[type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  } 
+/* IMAGE STYLES */
+[type=radio] + img {
+    cursor: pointer;
+    width: 220px;
+    margin-top: 25px;
+}
+/* CHECKED STYLES */
+[type=radio]:checked + img {
+    outline: 1px solid blue;
+}

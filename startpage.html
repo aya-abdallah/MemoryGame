@@ -4,32 +4,35 @@
         <title>
             Game Memory
         </title>
-        <link href="css/style.css" rel="stylesheet">
-        
+        <link href="css/start.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Spirax" rel="stylesheet">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     </head>
     <body>
         <div class="container">
             <div class="game">
                 <form name="my-form">
-                    <fieldset>
-                        <legend style="text-align :center">Start Your Game</legend>
-                        <label>Name:</label>
-                        <input type="text" placeholder="Enter your name" id="name">
-                        <span id="msg_name"></span><br><br>
-                        <input type="radio" name="radio"><img src="img/char1.jpg">
-                        <input type="radio" name="radio"><img src="img/char2.jpg">
-                        <span id="msg_radio"></span><br><br>
-                        <button id="start">
-                            Start
-                        </button>
-                    
-                    </fieldset>
+                    <legend>Start Your Game</legend>
+                    <label>Name:</label>
+                    <input type="text" placeholder="Enter your name" id="name">
+                    <span id="msg_name"></span><br><br>
+                    <p>Choose your character</p>
+                    <label>
+                        <input type="radio" name="radio" value="char1">
+                        <img src="images/char3.png" style="width:215px">
+                    </label>
+                    <label>
+                        <input type="radio" name="radio" value="char2">
+                      <img src="images/char5.png" style="width: 220px; height:245px;">
+                    </label>
+                    <span id="msg_radio"></span><br><br>
+                    <button id="start">
+                        Start
+                    </button>
                 </form>
             </div>    
-        </div>
-       
-        <script type="text/javascript" src="js/start.js"  ></script>
-             
-        
+         </div>
+        <script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+        <script type="module" src="js/start.js"  ></script>
     </body>
 </html>

@@ -4,23 +4,31 @@
     Memory game
     </title>
     <link href="css/game.css" rel="stylesheet" type="text/css">
-
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
     </head>
     <body>
-        <div id="map">
-        <img class="mapImage" src="img/gray.png">
-        <img class="line" src="img/horizontal-line.png">
-        <img class="mapImage" src="img/gray.png">
-        <img class="line" src="img/horizontal-line.png">
-        <img class="mapImage" src="img/gray.png">
-
+        <div id="char_div"></div>
+        <div id="map" >
+        <img class="mapImage" src="images/gray.png">
+        <img class="line" src="images/horizontal-line.png">
+        <img class="mapImage" src="images/gray.png">
+        <img class="line" src="images/horizontal-line.png">
+        <img class="mapImage" src="images/gray.png">
         </div>
-    <div id="card"></div>
-      
-        <script type="text/javascript" src="js/level.js"  ></script>
-        <script type="text/javascript" src="js/start.js"  ></script>
-
-    
+        <div class="clear"></div>
+        <div id="timer" class="class_t"></div>
+        <div id='showCard'></div>
+        <div id="card"></div>
+        
+        <div id="pop">
+            <div id="score"> Fail </div>
+            <img src="" id="fail">
+            <img src="char3.png" id="chrac">
+            <button id="again">Play Again </button>
+            <button id="exite"> Exit  </button> 
+       </div>
+        
+        <script src="js/level.js"  ></script>
     </body>
 
 </html>
